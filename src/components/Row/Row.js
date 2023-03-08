@@ -60,7 +60,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
         <YouTube
           videoId={trailerUrl}
           opts={opts}
-          className="youtube" // defaults -> null
+          className="youtube"
         />
       )}{" "}
     </div>
